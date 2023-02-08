@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Státní informační systém</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <div tabindex="-1" class="menu-button">
+            <div tabindex="-1" class="menu-icon">                
+            </div>
+        </div>
+
+    
+        <div class="student-project-main">
+            <p>studentský&nbsp;project</p>
+        </div>
+    
+        <nav class="menu slide-from-right">
+            
+            <a tabindex="-1" class="menu-link menu-link-main active" href="index.html">Hlavní</a>
+            <a tabindex="-1" class="menu-link menu-link-news" href="pages/news.html">Novinky</a>
+            <a tabindex="-1" class="menu-link menu-link-services" href="pages/sluzby.html">Služby</a>
+            <a tabindex="-1" class="menu-link menu-link-qna" href="pages/qna.html">Q&A</a>         
+            <div class="menu-buttons">
+                <a tabindex="-1" href="pages/login.html">Příhlásit</a>
+                <a tabindex="-1" href="pages/register.html">Registrovat</a>
+            </div>  
+            <div class="menu-search-bar-container">
+                <input tabindex="-1" class="menu-search-bar" type="text" placeholder="Vyhledávání">
+                <a href="pages/search.html">🔍</a>
+            </div>   
+        </nav>
+
+        
+        
+        <header class="main-header">      
+            <nav class="menu-pc">
+                <div class="menu-pc-1">
+                    <a class="menu-link menu-link-main active" href="index.html">Hlavní</a>
+                    <a class="menu-link menu-link-news" href="pages/news.html">Novinky</a>
+                    <a class="menu-link menu-link-services" href="pages/sluzby.html">Služby</a>
+                    <a class="menu-link menu-link-qna" href="pages/qna.html">Q&A</a>
+                </div>
+        
+                <div class="menu-pc-2">
+                    <a class="menu-link menu-link-login" href="pages/login.html">Příhlásit</a>
+                    <a class="menu-link menu-link-register" href="pages/register.html">Registrovat</a>
+                </div>
+            </nav>
+
+            
+            
+            <div class="flex-center flex-col ">
+                <h1 class="main-h1">Vládní služby online</h1>
+                <div class="main-search-bar-container">
+                    <input class="main-search-bar" type="text" placeholder="Napište co hledáte">
+                    <a href="pages/search.html">🔍</a>
+                </div>
+                <p class="main-text">Například: <u>soukromý podnik</u> nebo <u>podnikání</u></p>
+                
+            </div>
+        </header>
+    
+    
+        <main class="page-container page-container-main">
+            <article>
+                <section class="life-situations-section">
+                    <h2>Životní události a situace</h2>             
+                    <p>Co je třeba vědět, kam se obrátit a jak jednat v případě příjemných a ne tak očekávaných či nečekaných událostí a situací.</p>
+        
+        
+                        <div tabindex="0" class="slide-button-container">
+                            <div class="slide-button slide-button-1">
+                                <h3>Doklady a občanství</h3>
+                                <p>▼</p>
+                            </div>
+                            <div class="slide-button-submenu slide-button-submenu-1 hidden">
+                                <a href="pages/sluzby.html">Je mi 14 let</a>
+                            </div>
+                        </div>
+        
+        
+                    <div tabindex="0" class="slide-button-container next-slide-button-container">
+                        <div class="slide-button slide-button-2">
+                            <h3>Rodina</h3>
+                            <p>▼</p>
+                        </div>
+                        <div class="slide-button-submenu slide-button-submenu-2 hidden">
+                            <a href="pages/services-detail.html">Plánuji miminko</a>
+                            <a href="pages/services-detail.html">Mám dítě</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="qna-detail-section">
+                    <h2>Co je elektronický podpis a jak podepisovat dokumenty online?</h2>
+                    <div>               
+                        <a href="pages/qna-detail.html" class="button-more">Zjistit více</a>
+                    </div>
+                </section>
+                <section class="fav-services-section">
+                    <h2>Oblíbené služby</h2>
+                    <div>              
+                        <div class="fav-services-grid">
+            
+                                <div tabindex="0" class="item item-1" onclick="location.href='pages/services-detail.html'">
+                                    <img src="img/service-1.jpg" alt="Služba 1" >
+                                    <h3 class="text">Dotace na zahradu</h3>
+                                </div>
+                                <div tabindex="0" class="item item-2" onclick="location.href='pages/services-detail.html'">
+                                    <img src="img/service-2.jpg" alt="Služba 2">
+                                    <h3 class="text">Stavebni prace</h3>
+                                </div>
+                                <div tabindex="0" class="item item-3" onclick="location.href='pages/services-detail.html'">
+                                    <img src="img/service-3.jpg" alt="Služba 3">
+                                    <h3 class="text">Půjčka na bydlení</h3>
+                                </div>
+                                <div tabindex="0" class="item item-4" onclick="location.href='pages/services-detail.html'">
+                                    <img src="img/service-4.jpg" alt="Služba 4">
+                                    <h3 class="text">Registrace podniku</h3>
+                                </div>
+            
+                        </div>
+                    </div>
+                </section>
+                <section class="qna-section" >
+                        <div>
+                            <h2>Otázky a odpovědi</h2>
+                            <div class="qna-section-buttons-container">
+                                <div tabindex="0" class="slide-button-container">
+                                    <div class="slide-button slide-button-3">
+                                        <h3>Elektronické služby</h3>
+                                        <p>▼</p>
+                                    </div>
+                                    <div class="slide-button-submenu slide-button-submenu-3 hidden">
+                                        <a href="pages/qna.html">Co je elektronický podpis?</a>
+                                        <a href="pages/qna.html">Vrácení finančních prostředků.</a>
+                                    </div>
+                                </div>
+                    
+                
+                                <div tabindex="0" class="slide-button-container next-slide-button-container">
+                                    <div class="slide-button slide-button-4">
+                                        <h3>Pomocí portálu</h3>
+                                        <p>▼</p>
+                                    </div>
+                                    <div class="slide-button-submenu slide-button-submenu-4 hidden">
+                                        <a href="pages/qna.html">Proč potřebuji občanský účet?</a>
+                                        <a href="pages/qna.html">Jak se zaregistrovat?</a>
+                                    </div>
+                                </div>
+                
+                                <div tabindex="0" class="slide-button-container next-slide-button-container">
+                                    <div class="slide-button slide-button-5">
+                                        <h3>Aplikace</h3>
+                                        <p>▼</p>
+                                    </div>
+                                    <div class="slide-button-submenu slide-button-submenu-5 hidden">
+                                        <a href="pages/qna.html">Kde stáhnout aplikaci?</a>
+
+                                        <a href="pages/qna.html">Jak aplikace funguje?</a>
+                                    </div>
+                                </div>
+                
+                                <div tabindex="0" class="slide-button-container next-slide-button-container">
+                                    <div class="slide-button slide-button-6">
+                                        <h3>Bezpečnost</h3>
+                                        <p>▼</p>
+                                    </div>
+                                    <div class="slide-button-submenu slide-button-submenu-6 hidden">
+                                        <a href="pages/qna.html">Odkud znáte mé informace?</a>
+                                        <a href="pages/qna.html">Jak bezpečná je tato služba?</a>
+                                        <a href="pages/qna.html">Kam se úkládají informace o mé osobě?</a>
+                                    </div>
+                                </div>
+                
+                                <div tabindex="0" class="slide-button-container next-slide-button-container">
+                                    <div class="slide-button slide-button-7">
+                                        <h3>Obchodní partnerství</h3>
+                                        <p>▼</p>
+                                    </div>
+                                    <div class="slide-button-submenu slide-button-submenu-7 hidden">
+                                        <a href="pages/qna.html">Jak se stát partnerem?</a>
+                                        <a href="pages/qna.html">Mají dokumenty v této službe právní sílu?</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+        
+                <section class="news-section">        
+
+                        <h2>Novinky</h2>
+
+                        <div class="items-container">
+                            <div class="item item-1">
+                                <span><a href="pages/news-detail.html"><img class="news-img" src="https://picsum.photos/300/200" alt="Zpráva 1"></a></span>
+                                <div class="text-container">
+                                    <a href="pages/news-detail.html"><h3 class="text">Vojenské dluhopisy v akci: Jak funguje nová služba aplikace</h3></a>
+                                    <p>08/11/2022</p>
+                                </div>
+                            </div>
+                            <div class="item short-news item-2">                       
+                                <div class="text-container">
+                                    <a href="pages/news-detail.html"><h3 class="text">Adopce dítěte je snazší: jak funguje nová služba na portálu Diya</h3></a>
+                                    <p>08/11/2022</p>
+                                </div>
+                            </div>
+                            <div class="item short-news item-3">
+                                <div class="text-container">
+                                    <a href="pages/news-detail.html"><h3 class="text">Sdílení e-pasu v aplikaci Diya je nyní v pravomoci DRATS</h3></a>
+                                    <p>08/11/2022</p>
+                                </div>
+                            </div>
+                            <div class="item short-news item-4">
+                                <div class="text-container">
+                                    <a href="pages/news-detail.html"><h3 class="text">Nové služby v Diya: penze, povolení k pobytu, dokumenty v angličtině a sdílení aut</h3></a>
+                                    <p>08/11/2022</p>
+                                </div>
+                            </div>
+                            <div class="item short-news item-5">
+                                <div class="text-container">
+                                    <a href="pages/news-detail.html"><h3 class="text">Automatická registrace LLC je nyní k dispozici na portálu Diya</h3></a>
+                                    <p>08/11/2022</p>
+                                </div>
+                            </div>
+                            <div class="item short-news item-6">
+                                <div class="text-container">
+                                    <a href="pages/news-detail.html"><h3 class="text">Nové služby v Diya: penze, dokumenty v angličtině a sdílení aut</h3></a>
+                                    <p>08/11/2022</p>
+                                </div>
+                            </div>
+                            <div class="item short-news item-7">
+                                <div class="text-container">
+                                    <a href="pages/news-detail.html"><h3 class="text">Automatická registrace LLC je nyní k dispozici na portálu Diya</h3></a>
+                                    <p>08/11/2022</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="pages/news.html" class="show-all-news"><u>Zobrazit všechny Novinky</u></a>
+                    
+                </section>
+            </article>
+        </main>
+
+        <footer>
+                <div>
+                    <a href="#">Průvodce veřejnými službami</a>
+                    <a href="pages/sluzby.html">Seznam služeb</a>
+                    <a href="pages/kontakty.html">kontakty</a>
+                </div>
+
+                <div>
+                    <a href="#">Zpracování osobních údajů</a>
+                    <a href="#">Smlouva pro partnery</a>
+                </div>
+
+                <div>
+                    <a href="pages/login.html">Přihlásit se</a>
+                    <a href="pages/qna.html">Otázky a odpovědi</a>
+                    <div class="logos">
+                        <a href="https://www.facebook.com"><img src="img/logo/fb.svg" alt="Facebook logo"></a>
+                        <a href="https://www.instagram.com"><img src="img/logo/ig.svg" alt="Instagram logo"></a>
+                    </div>
+                </div>
+        </footer>
+    
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

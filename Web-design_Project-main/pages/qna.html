@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Státní informační systém</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div>
+        <div class="menu-button">
+            <div class="menu-icon">                
+            </div>
+        </div>
+
+        <nav class="menu slide-from-right">
+            <a tabindex="-1" class="menu-link menu-link-main" href="../index.html">Hlavní</a>
+            <a tabindex="-1" class="menu-link menu-link-news" href="news.html">Novinky</a>
+            <a tabindex="-1" class="menu-link menu-link-services" href="sluzby.html">Služby</a>
+            <a tabindex="-1" class="menu-link menu-link-qna" href="qna.html">Q&A</a>
+            <div class="menu-buttons">
+                <a tabindex="-1" href="login.html">Příhlásit</a>
+                <a tabindex="-1" href="register.html">Registrovat</a>
+            </div>   
+            <div class="menu-search-bar-container">
+                <input tabindex="-1" class="menu-search-bar" type="text" placeholder="Vyhledávání">
+                <a href="search.html">🔍</a>
+            </div> 
+        </nav>
+
+        <nav class="menu-pc">
+            <div class="menu-pc-1">
+                <a class="menu-link menu-link-main" href="../index.html">Hlavní</a>
+                <a class="menu-link menu-link-news" href="news.html">Novinky</a>
+                <a class="menu-link menu-link-services" href="sluzby.html">Služby</a>
+                <a class="menu-link menu-link-qna" href="qna.html">Q&A</a>
+            </div>
+    
+            <div class="menu-pc-2">
+                <div class="search-bar-container">
+                    <input type="text" class="search-bar" placeholder="Vyhledat">
+                    <a href="search.html">🔍</a>
+                </div>
+                <a class="menu-link menu-link-login" href="login.html">Příhlásit</a>
+                <a class="menu-link menu-link-register" href="register.html">Registrovat</a>
+            </div>
+
+        </nav>
+        
+        <header class="small-header">
+
+            
+
+            <div>
+                <div class="student-project border-none">
+                    <p>studentský&nbsp;project</p>
+                </div>
+            </div>
+            <p>
+                <a href="../index.html">Hlavní</a>
+                &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                <a href="qna.html">Často kladené otázky</a>
+            </p>
+            <h1>Často kladené otázky</h1>
+        </header>
+    
+    
+        <main class="page-container page-qna-container">
+            <article>
+                <section>
+                    <div tabindex="0" class="slide-button-container">
+                        <div class="slide-button slide-button-1">
+                            <h3>Elektronické služby</h3>
+                            <p>▼</p>
+                        </div>
+                        <div class="slide-button-submenu slide-button-submenu-1 hidden">
+                            <a href="qna-detail.html">Co je elektronické podpis?</a>
+                            <a href="qna-detail.html">Vrácení finančních prostředků.</a>
+                        </div>
+                    </div>
+        
+        
+                    <div tabindex="0" class="slide-button-container next-slide-button-container">
+                        <div class="slide-button slide-button-2">
+                            <h3>Pomocí portálu</h3>
+                            <p>▼</p>
+                        </div>
+                        <div class="slide-button-submenu slide-button-submenu-2 hidden">
+                            <a href="qna-detail.html">Proč potřebuji občanský účet?</a>
+                            <a href="qna-detail.html">Jak se zaregistrovat?</a>
+                        </div>
+                    </div>
+        
+                    <div tabindex="0" class="slide-button-container next-slide-button-container">
+                        <div class="slide-button slide-button-3">
+                            <h3>Aplikace</h3>
+                            <p>▼</p>
+                        </div>
+                        <div class="slide-button-submenu slide-button-submenu-3 hidden">
+                            <a href="qna-detail.html">Kde stáhnout aplikaci?</a>
+
+                            <a href="qna-detail.html">Jak aplikace funguje?</a>
+                        </div>
+                    </div>
+        
+                    <div tabindex="0" class="slide-button-container next-slide-button-container">
+                        <div class="slide-button slide-button-4">
+                            <h3>Bezpečnost</h3>
+                            <p>▼</p>
+                        </div>
+                        <div class="slide-button-submenu slide-button-submenu-4 hidden">
+                            <a href="qna-detail.html">Odkud znáte mé informace?</a>
+                            <a href="qna-detail.html">Jak bezpečná je tato služba?</a>
+                            <a href="qna-detail.html">Kam se úkládají informace o mé osobě?</a>
+                        </div>
+                    </div>
+        
+                    <div tabindex="0" class="slide-button-container next-slide-button-container">
+                        <div class="slide-button slide-button-5">
+                            <h3>Obchodní partnerství</h3>
+                            <p>▼</p>
+                        </div>
+                        <div class="slide-button-submenu slide-button-submenu-5 hidden">
+                            <a href="qna-detail.html">Jak se stát partnerem?</a>
+                            <a href="qna-detail.html">Mají dokumenty v této službe právní sílu?</a>
+                        </div>
+                    </div>
+                    
+                    <div class="send-question">
+                        <p>Nenašli jste správnou odpověď?<br>
+                        Napište nám!</p>
+                        <a href="#" class="button-dark send-question-button">Položit otázku</a>
+                    </div>
+        
+                    <div class="form-container-qna ">
+                        <div class="hide-form-button hidden">▲</div>
+                        <form method="GET" class="send-question-form slide-from-top" action="qna.html">
+                            <div class="flex-center flex-col">
+                                <div>
+                                    <h2>Položit otázku</h2>
+            
+                                    <input type="text" placeholder="Jméno a přijmení">
+                                    <input type="text" placeholder="E-mail">
+                                    <input type="text" placeholder="Téma otázky">
+                                    <input type="text" placeholder="Vaše otázka">
+        
+                                    
+                                </div>  
+                                <button class="button-dark">Poslat</button>                 
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </article>
+        </main>
+
+        <footer>
+            <div>
+                <a href="#">Průvodce veřejnými službami</a>
+                <a href="sluzby.html">Seznam služeb</a>
+                <a href="kontakty.html">kontakty</a>
+            </div>
+
+            <div>
+                <a href="#">Zpracování osobních údajů</a>
+                <a href="#">Smlouva pro partnery</a>
+            </div>
+
+            <div>
+                <a href="login.html">Přihlásit se</a>
+                <a href="qna.html">Otázky a odpovědi</a>
+                <div class="logos">
+                    <a href="https://www.facebook.com"><img src="../img/logo/fb.svg" alt="Facebook logo"></a>
+                    <a href="https://www.instagram.com"><img src="../img/logo/ig.svg" alt="Instagram logo"></a>
+                </div>
+            </div>
+        </footer>
+    
+        
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+
+</html>
